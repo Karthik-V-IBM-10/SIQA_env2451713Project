@@ -8,28 +8,23 @@ packages:
   gitUsername: Karthik-V-IBM-10
   gitBranch: bvt
 - name: TPP_services_in_FCS
+  version: "1.0"
   gitServerName: SIQA_kvv
   gitUrl: https://github.com/Karthik-V-IBM-10
   gitUsername: Karthik-V-IBM-10
   gitBranch: main
 services:
-- serviceName: project.siqa_env2451713.integrations:AlertsCRTandERT
+- serviceName: project.siqa_env2451713.integrations:tppdaf
   packages:
   - name: SIQA_env2451713Project
     version: "1.0"
-- serviceName: pub.alert:emit
+  - name: TPP_services_in_FCS
+    version: "1.0"
+- serviceName: services:add3Ints
   packages:
-  - name: WmPublic
-    version: 11.1.0.0.2033
-- serviceName: project.siqa_env2451713.integrations:Sum
-  packages:
-  - name: SIQA_env2451713Project
+  - name: TPP_services_in_FCS
     version: "1.0"
 - serviceName: pub.math:addInts
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.2033
-- serviceName: pub.flow:debugLog
   packages:
   - name: WmPublic
     version: 11.1.0.0.2033
