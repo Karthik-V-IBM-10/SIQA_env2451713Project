@@ -14,6 +14,48 @@ packages:
   gitUsername: Karthik-V-IBM-10
   gitBranch: main
 services:
+- serviceName: project.siqa_env2451713.integrations:AlertsCRTandERT
+  packages:
+  - name: SIQA_env2451713Project
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
+- serviceName: pub.alert:emit
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2033
+- serviceName: project.siqa_env2451713.integrations:Sum
+  packages:
+  - name: SIQA_env2451713Project
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
+- serviceName: pub.math:addInts
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2033
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2033
+- serviceName: project.siqa_env2451713.integrations:deepclonetest
+  packages:
+  - name: SIQA_env2451713Project
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
+- serviceName: pub.string:stringToBytes
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2033
+- serviceName: pub.utils:deepClone
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2033
+- serviceName: pub.string:bytesToString
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2033
 - serviceName: project.siqa_env2451713.integrations:tppdaf
   packages:
   - name: SIQA_env2451713Project
@@ -24,7 +66,3 @@ services:
   packages:
   - name: TPP_services_in_FCS
     version: "1.0"
-- serviceName: pub.math:addInts
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.2033
