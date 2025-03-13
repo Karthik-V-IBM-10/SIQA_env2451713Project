@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">testuser</value>
-    <value name="createdDate">1734335508301</value>
-    <value name="lastModifiedDate">1734335508301</value>
+    <value name="lastModifiedBy">Karthik.V10@ibm.com</value>
+    <value name="lastModifiedDate">1741868682383</value>
     <value name="displayName">JMS_JNDI_SSL</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -60,9 +59,9 @@
           <null name="services"/>
         </record>
         <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="description">publisher:publisher</value>
-          <value name="serviceName">publisher:publisher</value>
-          <value name="displayName">publisher</value>
+          <value name="description">jms2wayssl_publisher:jms2wayssl_publisher</value>
+          <value name="serviceName">jms2wayssl_publisher:jms2wayssl_publisher</value>
+          <value name="displayName">jms2wayssl_publisher</value>
         </record>
         <null name="outputMapSet"/>
         <null name="mapSet"/>
@@ -70,12 +69,9 @@
         <value name="nodePathNew">0</value>
         <number name="nodeIndex" type="Long">0</number>
         <number name="lineNumberForDebug" type="Long">1</number>
+        <Boolean name="serviceReferenceResolved">false</Boolean>
+        <value name="nodePathForDebug">0</value>
       </record>
-    </record>
-    <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="group">Default</value>
-      <value name="id">default</value>
-      <value name="name">Cloud Execution</value>
     </record>
   </record>
   <value name="svc_in_validator_options">none</value>
